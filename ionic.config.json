@@ -1,0 +1,16 @@
+{
+  "name": "TeamPilot",
+  "app_id": "8803c4eb",
+  "type": "ionic1",
+  "gulpStartupTasks": ["sass", "watch"],
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

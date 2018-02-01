@@ -1,0 +1,54 @@
+$assertive: #ADAAAA;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.custom {
+	width: 66%;
+	margin-left: 17%;
+}
+
+.inputbox {
+	border: none;
+	border-bottom: 2px solid #2bce08;
+	height: 30px;
+}
+
+.footer {
+	padding-top: 12px;
+	border-top: 1px solid #c7c9cc;
+}
+
+.check {
+	font-weight: bold;
+	border: none;
+}
+
+.but {
+	width: 45%;
+	height: 23%;
+	margin: 0px 10px;
+}
+
+.butt {
+	width: 45%;
+	height: 23%;
+	float: right;
+}
+
+.image {
+	img {
+		border-radius: 50%;
+		border: 4px solid #c7c9cc;
+	}
+	
+}
+.shadow {
+	box-shadow: 1px 2px grey;
+	width: 50%;
+}
+
+.ta {
+	border-left: 6px solid #5e4f28;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
